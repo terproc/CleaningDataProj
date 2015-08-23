@@ -13,8 +13,11 @@ The output file contains a tidy dataset consisting of 180 observations of 81 var
 * The authors of the study also conducted further calculations to produce the "Jerk" signals, and find the magnitude of the three dimensional signals, "Mag".
 
 Putting it all together:
-For example, for "tBodyAccmeanX", the column contains the mean by subject and activity of:
+For example, for "tBodyAccmeanX", the column contains the mean by subject and activity of:  
 the mean of time domain body acceleration signals in the x-axis.
 
 Note:
 - Features are normalized and bounded within [-1,1].
+
+Many thanks to the authors of the original study, for their informative notes and the datasets themselves:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
