@@ -1,8 +1,9 @@
-# CleaningDataProj
-Repo for Getting and Cleaning Data course project
-=================================================
+Readme for Getting and Cleaning Data course project
+===================================================
 
 This repo contains a single R script, run_analysis.R, that combines multiple tables from the UCI HAR Dataset, simplfies it into a tidy dataset, takes the means of the data columns of that tidy dataset, and exports that as a .txt file.
+
+In order to run the script, the UCI HAR Dataset must be unzipped in the user's working directory.
 
 The files from the UCI HAR Dataset it reads from are:
 
