@@ -46,4 +46,4 @@ for (i in colsNames){
 }
 
 #output msdBySubjAndActy to a table per instructions
-write.table(msdBySubjAndActy, ".//means_and_standard_devs_by_subject_and_activity.txt", row.names = F)
+write.table(msdBySubjAndActy, ".//means_of_means_and_standard_devs_by_subject_and_activity.txt", row.names = F)
